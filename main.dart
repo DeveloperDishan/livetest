@@ -1,9 +1,9 @@
 void main() {
-  // Create a list of fruits represented as maps
   List<Map<String, dynamic>> fruits = [
     {'name': 'Apple', 'color': 'Red', 'price': 2.5},
     {'name': 'Banana', 'color': 'Yellow', 'price': 1.0},
-    {'name': 'Orange', 'color': 'Orange', 'price': 2.5}
+    {'name': 'Orange', 'color': 'Orange', 'price': 2.5},
+    {'name': 'Watermelon', 'color': 'Green', 'price': 3.5}
   ];
 
   displayFruitDetails(fruits);
